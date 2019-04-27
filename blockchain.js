@@ -69,7 +69,26 @@ class Blockchain{
             });
         });
     }
-   
+   // GET all stars for a certain wallet address
+    getAllStarsOfWallet(walletAdress) {
+        try {
+            let stars =  this.chain.starsOfWalletAddress(walletAdress);
+            return stars;
+        } catch (e) {
+            console.log("getAllStarsOfWallet ===>  ", e.stack);
+        }
+    }
+
+    // GET the star given a certain blockHash
+    getStarAgainstHash(blockHash) {
+        try {
+            let hash_stars =  this.chain.starAgainstHash(blockHash);
+            return hash_stars;
+        } catch (e) {
+            console.log(e.stack);
+        }
+
+    }
     validateBlock(blockHeight, checkPrevious=false){
         let _this = this;
         return new Promise(function(resolve, reject){
