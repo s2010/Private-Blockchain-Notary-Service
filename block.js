@@ -1,5 +1,5 @@
 // Class to represent a simple block with some fields
-class block{
+class Block{
     constructor(data){
         this.hash = "";
         this.height = 0;
