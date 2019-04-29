@@ -75,8 +75,8 @@ If for a certain block height, there exists a star, then the server would respon
     "body": {
         "address": "1479jYUTvcW3wpTvHQ7o6WikyaHx4WEMCj",
         "star": {
-            "dec": "-27o 20o",
-            "ra": "09h 20m 7.0s",
+            "dec": "68° 52' 56.9",
+            "ra": "16h 29m 1.0s",
             "story": "5468697320697320746865207365636f6e642073746172",
             "storyDecoded": "This is the second star"
         }
@@ -198,8 +198,8 @@ Make sure that the request body has a JSON content type. The request body should
     {
         "address": "138DAPe6niHyfW1UyaevxeUC2dJNE9zfKD",
         "star": {
-            "dec": "-38o 10o",
-            "ra": "60h 50m 8.2s",
+            "dec": "68° 52' 56.9",
+            "ra": "16h 29m 1.0s",
             "story": "second star :D "
         }
     }
@@ -214,8 +214,8 @@ The server will respond as follows with a blockchain block containing the inform
     "body": {
         "address": "138DAPe6niHyfW1UyaevxeUC2dJNE9zfKD",
         "star": {
-            "dec": "-38o 10o",
-            "ra": "60h 50m 8.2s",
+            "dec": "68° 52' 56.9",
+            "ra": "16h 29m 1.0s",
             "story": "5468697320697320746865207365636f6e642073746172"
         }
     },
@@ -243,8 +243,8 @@ The server will respond as follows with a JSON response containing all the star 
         "body": {
             "address": "138DAPe6niHyfW1UyaevxeUC2dJNE9zfKD",
             "star": {
-                "dec": "-38o 10o",
-                "ra": "60h 50m 8.2s",
+                "dec": "68° 52' 56.9",
+                "ra": "16h 29m 1.0s",
                 "story": "5468697320697320746865207365636f6e642073746172",
                 "storyDecoded": "second star :D"
             }
@@ -269,8 +269,8 @@ The server will respond as follows with a JSON response containing the star obje
         "body": {
             "address": "138DAPe6niHyfW1UyaevxeUC2dJNE9zfKD",
             "star": {
-                "dec": "-38o 10o",
-                "ra": "60h 50m 8.2s",
+                "dec": "68° 52' 56.9",
+                "ra": "16h 29m 1.0s",
                 "story": "5468697320697320746865207365636f6e642073746172",
                 "storyDecoded": "second star :D"
             }
