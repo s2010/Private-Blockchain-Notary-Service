@@ -220,7 +220,7 @@ The server will respond as follows with a blockchain block containing the inform
         }
     },
     "time": "1542109612",
-    "previousBlockHash": "49195fa01ed7b83025763582d460acf525c215da05d38a01f1e1dfbc88e81ebd"
+    "previousBlockHash": "14fe35a789961719c21b7793eada74c1a7a0914180b9c4a773264b0eed4382c6"
 }
 ```
 
@@ -250,7 +250,7 @@ The server will respond as follows with a JSON response containing all the star 
             }
         },
         "time": "1542109612",
-        "previousBlockHash": "49195fa01ed7b83025763582d460acf525c215da05d38a01f1e1dfbc88e81ebd"
+        "previousBlockHash": "14fe35a789961719c21b7793eada74c1a7a0914180b9c4a773264b0eed4382c6"
     }
 ]
 ```
@@ -276,7 +276,7 @@ The server will respond as follows with a JSON response containing the star obje
             }
         },
         "time": "1542109612",
-        "previousBlockHash": "49195fa01ed7b83025763582d460acf525c215da05d38a01f1e1dfbc88e81ebd"
+        "previousBlockHash": "14fe35a789961719c21b7793eada74c1a7a0914180b9c4a773264b0eed4382c6"
     }
 ]
 ```
